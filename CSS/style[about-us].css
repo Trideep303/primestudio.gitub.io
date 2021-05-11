@@ -1,0 +1,179 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+header
+{
+    height: 50vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../Images/about-background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.logo a img
+{
+    width: 360px;
+}
+/* .logo{
+    padding:px;
+} */
+hr
+{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+nav
+{
+    display: flex;
+    height: 130px;
+
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.menu ul a li{
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.menu ul a li:hover
+{
+    background-color: rgba(66, 129, 72, 0.8);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.about-us
+{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    width: 1200px;
+    margin: 0 auto;
+}
+.about-us p{
+    color: white;
+}
+.about-us img
+{
+    width: 500px;
+}
+.item1, .item2{
+    display: grid;
+    align-items: center;
+    text-align: justify;
+}
+h3
+{
+    text-align: center;
+    font-size: 29px;
+    color: cadetblue;
+    font-family: 'lucida calligraphy';
+}
+.menu ul a
+{
+    text-decoration: none;
+}
+.img-end
+{
+    display: grid;
+    justify-items: flex-end;
+}
+footer
+{
+    background-color: rgb(97, 87, 87);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.active
+{
+    background-color: rgba(24, 226, 115, 0.9);
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+p
+{
+    font-size: 21px;
+    font-family: 'Cormorant Infant SemiBold';
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+
+    nav{
+        flex-direction: column;
+        padding: 30px;
+
+    }
+    header{
+        height: 60vh;
+    }
+    .menu ul{
+        flex-direction: column;
+        margin-bottom: -225px;
+        text-align: center;
+    }
+    .menu ul a li{
+        margin: 5px 0px;
+        font-size: 22px;
+    }
+    .about-us
+    {
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        padding: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    .about-us
+    {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        padding: 2px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+    /* .about-container{
+       width: 100%;
+    } */
+    .about-us{
+        width: 100%;
+        padding: 0px 2px;
+
+    }
+}
+
+
+ 

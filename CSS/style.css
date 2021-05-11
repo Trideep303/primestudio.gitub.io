@@ -1,0 +1,888 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+    background-color: rgba(0, 0, 0, 0.904);
+}
+html
+{
+  scroll-behavior: smooth;
+}
+body::selection
+{
+    color: red;
+    background-color: yellow
+    ;
+}
+hr
+{
+    border: dashed 6px white;
+    border-bottom: none;
+    margin: -20px auto 20px;
+    width: 70px;
+    color:  white;
+}
+
+.btn-more
+{
+    background-color: transparent;
+    border: 2px  rgb(52, 68, 52) solid;
+    color:  rgb(52, 68, 52);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+   margin: 10px;
+    font-weight: 900;
+    border-radius: 6px;
+}
+.btn-more:hover
+{
+    color: white;
+    transition: 0.4s;
+    background-color:  rgb(52, 68, 52);
+    cursor: pointer;
+}
+
+/*
+font-family: 'Dela Gothic One', cursive; 
+font-family: 'Lobster Two', cursive;
+font-family: 'New Tegomin', serif;
+font-family: 'Sacramento', cursive; 
+ */
+/* Header design starts from here */
+header
+{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../Images/CAMERA.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+.logo a img
+{
+    width: 360px;
+}
+/* .logo{
+    padding:px;
+} */
+nav
+{
+    display: flex;
+    height: 130px;
+
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.menu ul li{
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.write-text
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.write-text h2
+{
+    font-size: 68px;
+    color: rgb(29, 194, 29);
+    margin-top: 89px;
+}
+.write-text p
+{
+    color: violet;
+    background-color: rgba(70, 122, 90, 0.9);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.menu ul a
+{
+    text-decoration: none;
+}
+/* Header design ends here */
+
+/* about us starts here */
+.about-us
+{
+    padding: 25px;
+    
+   
+}
+.active
+{
+    background-color: rgba(24, 226, 115, 0.9);
+    border-radius: 5px;
+    margin-right: 3px;
+}
+.about-us .about-container .about-img img
+{
+    width: 500px;
+}
+h3
+{
+    font-family: 'lucida calligraphy';
+    text-align: center;
+    font-size: 29px;
+    letter-spacing: 7px;
+   
+    color: cadetblue;
+    font-weight: bolder;
+}
+.about-container
+{
+    display: flex;
+    position: relative;
+    
+}
+.about-img
+{
+    width: 40%;
+}
+.about-desc
+{
+  
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+
+    position: absolute;
+    top: 45px;
+    width: 60%;
+    right: 0%;
+}
+.about-desc p
+{
+    word-spacing: 3px;
+    font-family: 'Cormorant Infant SemiBold';
+    color: whitesmoke;
+}
+.menu ul a li:hover{
+    background-color: rgba(66, 129, 72, 0.8);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+/* about us ends here */
+/* banner design starts from here */
+.banner{
+    padding: 20px;
+    margin: 30px 0px;
+    text-align: center;
+    color: white;
+    height: 200px;
+
+    background-image: url(../Images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner h2{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 800;
+}
+.banner_2{
+  padding: 20px;
+  margin: 30px 0px;
+  text-align: center;
+  color: white;
+  height: 200px;
+
+  background-image: url(../Images/mini\ banner.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.banner_2 h2{
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 800;
+}
+/* banner design ends here */
+
+/* Our team section design starts from here */
+
+
+.team-container{
+        width: 1200px;
+        margin: 0 auto;
+
+        display: flex;
+       justify-content: space-around;
+    }
+
+    .team-section{
+        margin-top: 60px;
+    }
+
+
+.end-button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* card */
+.wrapper-gallery p
+{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 800;
+  color: #27AE60;
+  text-decoration: underline;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+ 
+  
+  .container{
+    width: 360px;
+    height: 420px;
+    height: 540px;
+    border-radius: 10px;
+    background: #A9CCE3;
+  }
+  
+  .img-container{
+    width: 100%;
+    height: 40%;
+    position: relative;
+  }
+  
+  .img-container img.banner-img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .img-container img.profile-img{
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }
+  
+  .share{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .share ul{
+    list-style: none;
+  }
+  
+  .share ul li{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 2px solid #229954;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  
+  .share ul li .fa{
+    line-height: 35px;
+    color: #229954;
+    transition: all 1s ease;
+  }
+  
+  .share ul li:hover{
+    background: #229954;
+  }
+  
+  .share ul li:hover .fa{
+    color: #fff;
+  }
+  
+  .content{
+    height: 60%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 50px 50px;
+    position: relative;
+  }
+  
+  .title{
+    text-align: center;
+    color: #229954;
+    padding-bottom: 35px;
+  }
+  
+  .title p{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .title span{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  
+  .follow{
+    text-align: center;
+    border: 2px solid #27AE60;
+    border-radius: 50px;
+    padding: 10px;
+    color: #27AE60;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.6s ease;
+  }
+  
+  .follow:hover{
+    color: #fff;
+    background: #27AE60;
+  }
+  
+  .heart,
+  .like{
+    cursor: pointer;
+  }
+  
+  .heart:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-left: 30px solid #145A32;
+    border-right: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid #145A32;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .heart:after{
+    font-family: fontawesome;
+    content:"\f08a";
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+  }
+  
+  
+  
+  .like:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid #145A32;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid #145A32;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .like:after{
+    font-family: fontawesome;
+    content:"\f087";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-weight: 300;
+  }
+/* card */
+/* Our team section design ends here */
+
+
+/* Our gallery design section starts from here */
+.wrapper-gallery{
+  max-width: 75rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 12.5rem);
+  gap: .5rem;
+}
+
+/* Gallery Layout */
+.gallery__item--1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.gallery__item--2 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.gallery__item--3 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.gallery__item--4 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 3;
+}
+
+.gallery__item--5 {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+}
+
+.gallery__item--6 {
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+}
+
+/* Gallery Link */
+.gallery__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Gallery Link Overlay */
+.gallery__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+}
+
+.gallery__link:hover .gallery__overlay {
+  opacity: 1;
+}
+
+/* Gallery Overlay Text */
+.gallery__overlay span {
+  position: relative;
+  line-height: 3rem;
+}
+
+.gallery__overlay span:before,
+.gallery__overlay span:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: #fff;
+  transition: width .3s ease-out .2s;
+}
+
+.gallery__overlay span:before {
+  top: 0;
+  left: 0;
+}
+
+.gallery__overlay span:after {
+  bottom: 0;
+  right: 0;
+}
+
+.gallery__link:hover .gallery__overlay span:before,
+.gallery__link:hover .gallery__overlay span:after {
+  width: 100%;    
+}
+
+
+/* Gallery Image */
+.gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.05);
+  transition: 
+      transform .5s,
+      filter .5s;
+}
+
+.gallery__link:hover .gallery__image {
+  transform: scale(1.2);
+  filter: blur(2px);
+}
+/* Our gallery section design ends here */
+
+/* Services Section Design starts from here */
+.services-section{
+    width: 75rem;
+    margin: 0 auto;
+}
+.block--services__list {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.block--services__item {
+  background: #007d9f;
+  color:#fff;
+  text-align: center;
+  padding: 30px 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.5s ease 0;
+}
+.block--services__item span {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+.block--services__item .icon {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #d72f15;
+  width: 90px;
+  height: 90px;
+  line-height: 96px;
+  border-radius: 50px;
+}
+.block--services__item .feature_box_col_one, .block--services__item .feature_box_col_two, .block--services__item .feature_box_col_three, .block--services__item .feature_box_col_four, .block--services__item .feature_box_col_five, .block--services__item .feature_box_col_six {
+  background: #002342;
+  color: #d72f15;
+}
+
+.block--services__text {
+  background: #002342;
+  padding:15px;
+  border-radius: 10px;
+}
+.block--services__item h3 {
+  margin-bottom: 20px;
+  /*color: #002342;*/
+}
+.block--services__item p {
+  font-size: 15px;
+  line-height: 26px;
+}
+.block--services__item:hover {
+  background: #d72f15;
+  box-shadow: none;
+  transition: all 0.5s ease 0s;
+}
+.block--services__item:hover .item,
+.block--services__item:hover span.icon {
+  /* background: #fff; */
+  border-radius: 10px;
+  transition: all 0.5s ease 0s;
+}
+.block--services__item:hover h3,
+.block--services__item:hover p {
+  color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.services_title{
+  font-size: 1.33rem;
+}
+
+/* Services Section Design ends here */
+
+/* Testimonial section design starts from here */
+.tesi-card_container
+{
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+   
+}
+.tesimonial-section{
+  margin-bottom: 30px;
+}
+.testi-card{
+  width: 400px;
+  /* border: #145A32 5px solid; */
+  background-color: rgb(31, 18, 56);
+  padding: 10px;
+  transition: 0.6s;
+  margin: 0px 6px;
+}
+.testi-card:hover{transform: scale(0.9); box-shadow: 10px 8px 3px #000;}
+.quote{
+  text-align: center;
+  margin: 25px 0px;
+}
+.quote img{
+  width: 100px;
+}
+.bio{
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px 0px;
+  color: white;
+}
+.profile-pic{
+  text-align: center;
+  margin: 10px 0px;
+}
+.profile-pic img{
+  width: 150px;
+  border-radius: 50%;
+}
+.name{
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  color: #0df623;
+  margin: 25px;
+}
+/* Testimonial section design ends here */
+
+/* footer deisgn starts from here */
+footer
+{
+  background-color: gray;
+padding-right: 10%;
+padding-left: 10%;
+padding-top: 20px;
+padding-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 20;
+}
+.abot-us{
+  width: 40%;
+}
+.abot-us p
+{
+    font-size: 20px;
+}
+.link{
+  display: flex;
+  margin: 10px;
+  font-size: 18px;
+
+}
+.hr-pre{
+  width: 50%;
+  margin: 20px auto;
+}
+.cut
+{
+  padding: 0px 5% 0px 5%;
+}
+footer ul li{
+  list-style-type: none;
+  margin: 10px 0px;
+  text-align: left;
+  transition: 0.3s;
+}
+footer ul li:hover{
+  color: blue;
+  cursor: pointer;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+/* .about-us h3::after{
+  background-image: url(../Logos/hr.png);
+  height: 4px;
+  width: 100%;
+} */
+/* footer design ends here */
+
+
+/* Mobile design starts from here */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  nav
+  {
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .menu ul {
+    flex-direction: column;
+
+}
+header
+{
+  height: 100vh;
+}
+.menu ul a li{
+  margin: 5px 0px;
+  font-size: 22px;
+}
+.logo a img{
+    width: 450px;
+}
+ .write-text{
+   margin-top: 100px;
+   padding: 0px 10px;
+ }
+ .about-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2, 1fr);
+ }
+ .about-desc{
+   position: absolute;
+   top: 400px;
+   right: 180px;
+   
+ }
+ .about-us span{
+          display: none;
+ }
+ .about-img{
+    text-align: center;
+ }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+  .menu ul a li{
+    text-align: center;
+  }
+
+  .logo a img
+  {
+    width: 260px;
+  }
+  .about-img
+{
+  width: 50%;
+}
+.about-desc
+{
+  width: 50%;
+
+}
+
+ .about-us{
+   margin-bottom: 220px;
+ }
+    .team-container{
+      width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 360px);
+
+      justify-content: space-around;
+    }
+    .wrapper{
+        margin: 20px 0px;
+    }
+ 
+    .gallery {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Gallery Layout */
+  .gallery__item--1 {
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 1;
+  }
+
+  .gallery__item--2 {
+      grid-column: 1 / span 1;
+      grid-row: 2 / span 1;
+  }
+
+  .gallery__item--3 {
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 2;
+  }
+
+  .gallery__item--4 {
+      grid-column: 1 / span 1;
+      grid-row: 3 / span 2;
+  }
+
+  .gallery__item--5 {
+      grid-column: 2 / span 1;
+      grid-row: 3 / span 1;
+  }
+
+  .gallery__item--6 {
+      grid-column: 2 / span 1;
+      grid-row: 4 / span 1;
+  }
+
+  .gallery__overlay {
+      font-size: 1.25rem;
+  }
+
+  .services-section{
+    width: 100%;
+  }
+  .tesi-card_container{
+    width: 100%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .menu ul a li{
+    text-align: center;
+  }
+  .services-section{
+    padding: 0px -2px;
+  }
+  .banner{
+    margin-top: 100px;
+  }
+}
+/* Mobile Design ends here */
